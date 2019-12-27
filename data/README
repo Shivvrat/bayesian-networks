@@ -1,0 +1,23 @@
+The following datasets are included in this zip file.
+(1) nltcs
+(2) msnbc
+(3) kdd
+(4) plants
+(5) baudio
+(6) jester
+(7) bnetflix
+(8) accidents
+(9) r52
+(10) dna
+
+Filenames ending with .ts.data denote training dataset.
+Filenames ending with .valid.data denote validation dataset.
+Filenames ending with .test.data denote test dataset.
+
+All datasets are binary, namely each variable takes values from the domain {0,1} and use the following format. Each line is a comma separated assignment of values to all variables. Thus, each line is an example and the number of lines in the file denotes the number of examples.
+
+It is easy to load the datasets in python. For example, you can use:
+dataset=np.loadtxt(filename,delimiter=',')
+
+
+
