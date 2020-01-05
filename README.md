@@ -1,24 +1,26 @@
 # Bayesian Networks
-Inducing Decision Trees
-In this homework you will implement and test the decision tree learning
-algorithm (See Mitchell, Chapter 3). It is acceptable to look at Java code
-for decision trees in WEKA. However, you cannot copy code from WEKA.
-You can use either C/C++, Java or Python to implement your algorithms.
-Your C/C++ implementations should compile on Linux gcc/g++
-compilers.
- Download the 15 datasets available on the class web page. Each data
-set is divided into three sub-sets: the training set, the validation set
-and the test set. Data sets are in CSV format. Each line is a training
-(or test) example that contains a list of attribute values separated by
-a comma. The last attribute is the class-variable. Assume that all
-attributes take values from the domain f0,1g.
-The datasets are generated synthetically by randomly sampling solutions
-and non-solutions (with solutions having class \1" and nonsolutions
-having class \0") from a Boolean formula in conjunctive normal
-form (CNF). I randomly generated ve formulas having 500 variables
-and 300, 500, 1000, 1500 and 1800 clauses (where the length
-of each clause equals 3) respectively and sampled 100, 1000 and 5000
-positive and negative examples from each formula. I am using the
-following naming convention for the les. Filenames train, test
-and valid denote the training, test and validation data respectively.
-train c[i] d[j]:csv where i and j are integers contains training data
+The main aim of this programming assignment was to implement different bayesian network architectures to evaluate on the following datasets :-
+* nltcs
+* kdd
+* r52
+* msnbc
+* baudio
+* bnet
+* ix accidents plants
+* jester
+* dna
+I used the total log liklihood to evaluate the algorithms and as we know that the larger the log liklihood better the algorithm.
+<span>|l|l|l|l|l|</span> **Dataset** & **Part 1** & **Part 2** & **Part 3** & **Part 4**
+**nltcs** & -43107.67892 & -33593.08212 & -10768.71583 & <span> -6118.383008</span>
+**kdd** & -123337.0746 & -19033.68685 & <span> -8832.542727</span> & -10295.89325
+**r52** & -250226.3398 & -58599.86773 & - & -
+**msnbc** & -569089.0638 & -157675.0041 & -107467.8508 & <span> -97832.54273</span>
+**baudio** & -213534.3671 & -108191.5916 & -86631.88863 & <span> -70467.85076</span>
+**bnetflix** & -279427.2738 & -130444.2197 & -18352.28308 & <span> -10631.88863</span>
+**accidents** & -167674.0893 & 178339.8941 & 189475.4318 & <span> 205348.6503</span>
+**plants** & -157064.7307 & -125460.3018 & -30415.14016 & <span> -16479.76751</span>
+**jester** & -379346.623 & -185827.1561 & -83939.03107 & <span> -28054.45282</span>
+**dna** & -171763.9253 & -150508.5681 & <span> -2372.335881</span> & -8434.964492
+
+
+
