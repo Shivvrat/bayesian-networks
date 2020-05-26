@@ -96,18 +96,21 @@ We need to provide the dataset name for which we want to run the algorithm.
     We only have 1 parameter for the part 2 which is: 
     ```< dataset−name >``` 
     We need to provide the dataset name for which we want to run the algorithm.
+    
 ***Part 3.*** The code should look like :
 ```python main.py <dataset -name > -mtem <number -of -iterations >```
 We have 2 parameters for the part 3 algorithm which is: 
 ```< dataset−name >```
 We need to provide the dataset name for which we want to run the algorithm. ```< number − of − iterations >```
 We need to provide the number of iterations for which we want to run the algorithm.
+
 ***Part 4***  The code should look like :
 ```python main.py <dataset -name > -mtemrf <number -of -iterations >```
 We have 2 parameters for the part 4 algorithm which is: 
 ```< dataset−name >```
 We need to provide the dataset name for which we want to run the algorithm. ```< number − of − iterations >```
 We need to provide the number of iterations for which we want to run the algorithm.
+
 <!-- LICENSE -->
 ## License
 
