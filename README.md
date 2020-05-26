@@ -97,11 +97,12 @@ We only have 1 parameter for the part1 which is:
 We need to provide the dataset name for which we want to run the algorithm.
 
 ***Part 2.*** The code should look like :
-    ```python main.py <dataset -name > -tbn```
-    
-    We only have 1 parameter for the part 2 which is: 
-    ```< dataset−name >``` 
-    We need to provide the dataset name for which we want to run the algorithm.
+```python main.py <dataset -name > -tbn```
+
+We only have 1 parameter for the part 2 which is: 
+
+```< dataset−name >``` 
+We need to provide the dataset name for which we want to run the algorithm.
     
 ***Part 3.*** The code should look like :
 ```python main.py <dataset -name > -mtem <number -of -iterations >```
